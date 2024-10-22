@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 .container {
@@ -83,7 +83,6 @@ header .container .navbar ul li:last-child {
 .hero .container .hero_content .hero-text h1 {
     font-size: 3.5rem;
     font-weight: 900;
-    font-family: "Inter", sans-serif;
     color: white;
 }
 
@@ -193,7 +192,53 @@ header .container .navbar ul li:last-child {
 }
 
 
-
 .hero .container .hero_content .hero-text .hero-image {
     position: relative;
+}
+
+
+/* Habits Section */
+
+.habits {
+    padding: 50px 0;
+    background-color: #000;
+}
+
+
+.habits h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+
+.habits p {
+    font-size: 15px;
+    margin-top: 10px;
+    color: gray;
+}
+
+.habits h2,
+p {
+    text-align: center;
+}
+
+.habits .container .habit-cards {
+    display: flex;
+    gap: 25px;
+    padding: 40px 0;
+}
+
+.habits .container .habit-cards .card {
+    text-align: center;
+}
+
+.habits .container .habit-cards .card .img img {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.habits .container .habit-cards .card h3 {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
 }
