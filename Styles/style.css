@@ -242,3 +242,58 @@ p {
     color: white;
     margin-top: 10px;
 }
+
+
+/* Extra Mile Section */
+
+.extra-mile {
+    padding: 50px 0;
+    background-color: #000;
+}
+
+.extra-mile .container .run {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    background-color: rgb(43, 40, 40);
+    border-radius: 15px;
+    justify-content: space-between;
+}
+
+.extra-mile .container .run .content {
+    align-content: center;
+}
+
+
+.extra-mile .container .run .content h2 {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    font-weight: 900;
+}
+
+.extra-mile .container .run .content p {
+    font-size: 15px;    
+    color: gray;    
+    text-align: left;
+    margin: 30px 0;
+}
+
+.extra-mile .container .run .content button {
+    margin-top: 20px;
+    padding: 10px 40px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+
+
+
+.extra-mile .container .run .img img {
+    width: 400px;
+    border-radius: 20px;
+}
