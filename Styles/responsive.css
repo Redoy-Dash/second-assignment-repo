@@ -35,6 +35,50 @@
 
     .hero .container .hero_content .hero-text .stats .stat {
         top: 93%;
-        right: 50%; 
+        right: 50%;
+    }
+
+    /* Habits Section */
+
+    .habits .break {
+        display: block;
+    }
+
+    .habits .container .habit-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .habits .container .habit-cards .card .img img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .habits .container .habit-cards .card h3 {
+        font-size: 35px;
+        margin-top: 40px;
+    }
+
+    .habits .container .habit-cards .card p {
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    /* Extra Mile */
+
+    .extra-mile {
+        padding: 50px 0;
+    }
+
+    .extra-mile .container .run {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
     }
 }
