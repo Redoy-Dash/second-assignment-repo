@@ -1,0 +1,40 @@
+@media only screen and (max-width: 576px) {
+
+    /* Navbar */
+    .header .container .navbar ul {
+        display: none;
+    }
+
+    .header .container .navbar .menu_bar {
+        display: block;
+    }
+
+    .header .container .navbar .menu_bar i {
+        font-size: 45px;
+        color: white;
+    }
+
+    /* Hero Content */
+
+    .hero .container .hero_content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+    }
+
+    .hero .container .hero_content .hero-text p {
+        margin: 40px 0;
+    }
+
+    .hero .container .hero_content .hero-text .stats .statt {
+        top: 72%;
+        right: 16%;
+    }
+
+    .hero .container .hero_content .hero-text .stats .stat {
+        top: 93%;
+        right: 50%; 
+    }
+}
