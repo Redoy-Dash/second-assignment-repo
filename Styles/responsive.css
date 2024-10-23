@@ -71,7 +71,7 @@
     /* Extra Mile */
 
     .extra-mile {
-        padding: 50px 0;
+        padding: 40px;
     }
 
     .extra-mile .container .run {
@@ -80,5 +80,63 @@
         justify-content: center;
         align-items: center;
         gap: 50px;
+    }
+
+    .extra-mile .container .run .content .btn-primary {
+        padding: 10px 150px;
+    }
+
+    .extra-mile .container .run .content h2 {
+        font-size: 45px;
+    }
+
+    .extra-mile .container .run .content p {
+        margin: 10px 0;
+        font-size: 20px;
+    }
+
+    /* BMI Calculator */
+
+    .bmi-calculator .containerr {
+        margin-left: 30px;
+    }
+
+    .bmi-calculator .bmi .container .bmi-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bmi-calculator .bmi .container .bmi-content .bmi-chart {
+        width: 80%;
+    }
+
+    .bmi-calculator .bmi .container .bmi-content .bmi-chart .table table {
+        width: 100%;
+    }
+
+    .bmi-calculator .bmi .container .bmi-content .bmi-form h3 {
+        margin-top: 30px;
+        padding-left: 10px;
+    }
+
+    .bmi-calculator .bmi .container .bmi-content .bmi-form form button {
+        padding: 18px 100px;
+    }
+
+    /* Team Section */
+
+    .team {
+        padding: 40px 0;
+    }
+
+    .team .team-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin: 30px 25px;
     }
 }
